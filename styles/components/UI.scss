@@ -1,0 +1,74 @@
+// checkbox
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  line-height: 1;
+  p {
+    font-size: 14px;
+  }
+}
+
+$mapColor: ("purple", #545af2, #fff), ("red", #ef5350, #fff);
+
+.sb-checkbox {
+  display: inline-block;
+  font-size: 0;
+  &__input {
+    display: none;
+    &:checked {
+      + .sb-checkbox__label {
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  &__label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+    &:before {
+      content: "";
+      width: 25px;
+      height: 25px;
+      border: 2.5px solid;
+      box-sizing: border-box;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 4px;
+    }
+    &:after {
+      content: "done";
+      font-family: "Material Icons";
+      font-size: 20px;
+      line-height: 16px;
+      text-align: center;
+      width: 25px;
+      height: 25px;
+      display: block;
+      border-radius: 2px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: 0.2s opacity;
+    }
+    @each $class, $color1, $color2 in $mapColor {
+      &--#{$class} {
+        &:before {
+          border-color: $color1;
+        }
+        &:after {
+          background-color: $color1;
+          color: $color2;
+        }
+      }
+    }
+  }
+}

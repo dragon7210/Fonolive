@@ -1,0 +1,49 @@
+.business-header {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h4 {
+    font-size: 20px;
+  }
+  span {
+    background: #545af2;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 99px;
+    font-size: 14px;
+  }
+  .business-tabs {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+.business-item {
+  font-family: "Poppins", sans-serif;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px 15px 10px;
+  border-bottom: 2px solid #cccccc;
+  background-color: #ffffff;
+  .left {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    padding: 0;
+  }
+  .business-img {
+    padding: 5px;
+    border-radius: 100px;
+    border: 3px solid #545af2;
+  }
+  .rating {
+    color: #f0c80d;
+    font-size: 18px;
+  }
+}

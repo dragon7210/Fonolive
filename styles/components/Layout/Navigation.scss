@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.navigation-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "navigation-usercard navigation-menu navigation-menu  navigation-menu navigation-right";
+  font-family: "Poppins", sans-serif;
+
+  .navigation-usercard {
+    grid-area: navigation-usercard;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    gap: 16px;
+    line-height: 0.5;
+    width: fit-content;
+    padding: 15px 60px 15px 15px;
+    border-radius: 10px;
+
+    .user-name {
+      color: #545af2;
+      font-weight: 500;
+      font-size: 15px;
+    }
+    .user-id {
+      color: #8d8d8d;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+
+  .navigation-menu {
+    grid-area: navigation-menu;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .nav-menu-item {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      flex-direction: column;
+      margin-bottom: -15px;
+      padding-top: 12px;
+
+      // -webkit-box-shadow: 1px 0px 1px 0px rgba(226, 226, 226, 1);
+      // -moz-box-shadow: 1px 0px 1px 0px rgba(226, 226, 226, 1);
+      // box-shadow: 1px 0px 1px 0px rgba(226, 226, 226, 1);
+
+      width: 100%;
+    }
+    .active {
+      border-top: 4px solid #545af2;
+      color: #545af2;
+      font-weight: 500;
+    }
+  }
+
+  .navigation-right {
+    grid-area: navigation-right;
+  }
+}
