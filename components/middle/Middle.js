@@ -32,9 +32,15 @@ const Middle = () => {
         </button>
       </div>
       <JobType />
+      <JobType />
+      <JobType />
+      <JobType />
+      <JobType />
       <div className="middle-3">
         <p className="recommend"> All jobs</p>
       </div>
+      <JobType />
+      <JobType />
     </div>
   );
 };

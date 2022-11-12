@@ -8,7 +8,6 @@ const List = () => {
       <Left />
       <Middle />
       <Right />
-      <div className="right"></div>
     </div>
   );
 };
