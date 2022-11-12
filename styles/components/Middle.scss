@@ -1,11 +1,6 @@
 .middle {
   padding-left: 12px;
-  .tabMenu {
-    display: flex;
-    background-color: white;
-    align-items: center;
-  
-  }
+
   .jobTitle {
     margin-top: 29px;
     position: relative;
@@ -41,6 +36,7 @@
         padding: 13px 17px;
         margin: 0px;
         color: white;
+        cursor: pointer;
       }
     }
     .recommend {

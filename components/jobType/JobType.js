@@ -1,8 +1,14 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 
-const JobType = () => {
+const JobType = ({ index }) => {
+  const router = useRouter();
+  const selJobDetail = () => {
+    router.push("/jobs/detail");
+  };
+  const onClick = () => {};
   return (
-    <div className="jobType1">
+    <div className="jobType1" onClick={selJobDetail}>
       <div className="people">
         <Image
           src="/svg/people.svg"
