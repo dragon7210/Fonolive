@@ -1,7 +1,7 @@
 import "./Details.scss";
 
 const Details = () => {
-  return <div>List</div>;
+  return <div></div>;
 };
 
 export default Details;

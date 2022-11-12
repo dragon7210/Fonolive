@@ -9,50 +9,50 @@ const Header = () => {
           className="oval"
           src="/image/oval.png"
           alt="me"
-          width="52"
-          height="52"
+          width="46"
+          height="46"
         />
         <Image
           className="oval"
           src="/image/oval.png"
           alt="me"
-          width="52"
-          height="52"
+          width="46"
+          height="46"
         />
         <Image
           className="oval"
           src="/image/oval.png"
           alt="me"
-          width="52"
-          height="52"
+          width="46"
+          height="46"
         />
         <Image
           className="oval"
           src="/image/oval.png"
           alt="me"
-          width="52"
-          height="52"
+          width="46"
+          height="46"
         />
         <Image
           className="oval"
           src="/image/oval.png"
           alt="me"
-          width="52"
-          height="52"
+          width="46"
+          height="46"
         />
         <Image
           className="oval"
           src="/image/oval.png"
           alt="me"
-          width="52"
-          height="52"
+          width="46"
+          height="46"
         />
       </div>
       <div className="search">
         <input placeholder="are you in search of something?" />
         <Image
           className="searchImg"
-          src="/image/search.png"
+          src="/svg/search.svg"
           alt="search"
           width="20"
           height="20"
@@ -61,7 +61,7 @@ const Header = () => {
       <div className="ring">
         <Image
           className="searchImg"
-          src="/image/Shape.png"
+          src="/svg/Notification.svg"
           alt="search"
           width="20"
           height="26"
