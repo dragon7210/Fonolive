@@ -1,5 +1,6 @@
 import TabMenu from "../../../components/tabMenu/TabMenu";
 import Image from "next/image";
+import Tab from "../../../components/tab";
 
 const Middle = () => {
   return (
@@ -39,7 +40,15 @@ const Middle = () => {
         <p className="pt-[21px] pl-[25px] font-[Poppins] font-[500] text-[16px]">
           Categories
         </p>
-        <div className="ml-[14px] mr-[19px] h-[221px] bg-[#E3E4FF] rounded-[10px]"></div>
+        <div className="flex mt-[10px] mx-[25px] justify-between">
+          <Tab name="Fashion" />
+          <Tab name="UI/UX" />
+          <Tab name="Game" />
+          <Tab name="Cloths" />
+          <Tab name="News" />
+          <Tab name="Social" />
+        </div>
+        <div className="ml-[14px] mr-[19px] h-[221px] mt-[18px] bg-[#E3E4FF] rounded-[10px]"></div>
         <p className="pt-[22px] pl-[25px] font-[Poppins] font-[500] text-[18px]">
           Focus - On learning and Creating Rather Than Entertainment and
           Distraction
