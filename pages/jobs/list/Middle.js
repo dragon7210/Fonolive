@@ -23,11 +23,11 @@ const Middle = () => {
         />
       </div>
       <div className="flex relative">
-        <p className="mt-[42px] font-[Poppins] text-[20px] teext-[500]">
+        <p className="mt-[42px] font-[Poppins] text-[20px] font-[500]">
           Recommended jobs for you
         </p>
         <button className="bg-[#545AF2] p-[13px] relative flex mt-[38px] rounded-[99px] w-[164px] ml-[209px]">
-          <p className="text-[white] m-0 text-[12px] font-[Poppins] ">
+          <p className="text-[white] w-[121px] m-0 text-[12px] font-[Poppins] ">
             Create new job
           </p>
           <Image
