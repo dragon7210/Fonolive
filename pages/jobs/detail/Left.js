@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Selector from "../selector/Selector";
+import JobTypeSelector from "../../../components/jobTypeSelector/JobTypeSelector";
 
 const Left = () => {
   return (
@@ -33,11 +33,11 @@ const Left = () => {
           />
         </div>
         <p className="jobType">Job Type</p>
-        <Selector name="Full-time" />
-        <Selector name="Part-time" />
-        <Selector name="Contractual" />
-        <Selector name="Hourly" />
-        <Selector name="Intership" />
+        <JobTypeSelector name="Full-time" />
+        <JobTypeSelector name="Part-time" />
+        <JobTypeSelector name="Contractual" />
+        <JobTypeSelector name="Hourly" />
+        <JobTypeSelector name="Intership" />
       </div>
     </>
   );

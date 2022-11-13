@@ -1,6 +1,4 @@
 import "../styles/global.css";
-import "../styles/footer/Footer.scss";
-// import "../styles/header/Header.scss";
 
 import "../styles/job/List.scss";
 import "../styles/job/Detail.scss";

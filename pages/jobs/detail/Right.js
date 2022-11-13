@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SelPeople from "../selPeople";
+import SelPeople from "../../../components/selPeople";
 
 const Right = () => {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const Selector = ({ name }) => {
+const JobTypeSelector = ({ name }) => {
   const [onSel, setOnSel] = useState(false);
   return (
     <>
@@ -34,4 +34,4 @@ const Selector = ({ name }) => {
   );
 };
 
-export default Selector;
+export default JobTypeSelector;

@@ -1,7 +1,7 @@
-import Layout from "../../../components/Layout/index";
+import Layout from "../../../components/Layout/Layout";
 import Business from "./Business";
 import Filters from "./Filters";
-import Suggestions from "./Suggestions";
+import Right from "../../jobs/detail/Right";
 
 const index = () => {
   return (
@@ -9,7 +9,7 @@ const index = () => {
       <Layout
         leftContent={<Filters />}
         centerContent={<Business />}
-        rightContent={<Suggestions />}
+        rightContent={<Right />}
       />
     </div>
   );
