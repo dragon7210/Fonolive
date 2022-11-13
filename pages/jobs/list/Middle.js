@@ -1,7 +1,7 @@
 import Image from "next/image";
-import TabMenu from "../tabMenu/TabMenu";
+import TabMenu from "../../../components/tabMenu/TabMenu";
 
-import JobType from "../jobType";
+import JobType from "../../../components/jobType";
 const data1 = [0, 1, 2, 3, 4];
 const data2 = [0, 1];
 

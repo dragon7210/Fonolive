@@ -1,13 +1,10 @@
-import Left from "../../../components/left";
-import Right from "../../../components/right";
-import Header from "../../layout/header";
-import Footer from "../../layout/footer";
+import Layout from "../../../components/Layout";
 import TabMenu from "../../../components/tabMenu/TabMenu";
 
 const Detail = () => {
   return (
     <>
-      <Header />
+      {/* <Header />
       <div className="jobDetail">
         <Left />
         <div className="middle">
@@ -51,7 +48,12 @@ const Detail = () => {
         </div>
         <Right />
       </div>
-      <Footer />
+      <Footer /> */}
+      <Layout
+        leftContent={<Left />}
+        // centerContent={<Middle />}
+        rightContent={<Right />}
+      />
     </>
   );
 };

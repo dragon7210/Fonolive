@@ -1,20 +1,15 @@
-import Left from "../../../components/left";
-import Middle from "../../../components/middle";
-import Right from "../../../components/right";
-import Header from "../../layout/header";
-import Footer from "../../layout/footer";
+import Layout from "../../../components/Layout";
+import Left from "./Left";
+import Middle from "./Middle";
+import Right from "./Right";
 
 const List = () => {
   return (
-    <>
-      <Header />
-      <div className="list">
-        <Left />
-        <Middle />
-        <Right />
-      </div>
-      <Footer />
-    </>
+    <Layout
+      leftContent={<Left />}
+      centerContent={<Middle />}
+      rightContent={<Right />}
+    />
   );
 };
 
