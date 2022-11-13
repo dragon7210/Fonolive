@@ -5,7 +5,7 @@ const Selector = ({ name }) => {
   const [onSel, setOnSel] = useState(false);
   return (
     <>
-      <div className="flex mb-[21px]">
+      <div className="flex mb-[21px] cursor-pointer">
         {onSel ? (
           <div>
             <Image

@@ -6,10 +6,9 @@ const JobType = ({ index }) => {
   const selJobDetail = () => {
     router.push("/jobs/detail");
   };
-  const onClick = () => {};
   return (
     <div
-      className="flex bg-[white] p-[18px] mt-[16px] mb-[20px]"
+      className="flex bg-[white] p-[18px] mt-[16px] mb-[20px] cursor-pointer"
       onClick={selJobDetail}
     >
       <div className="bg-[#545AF2] p-[19px] mr-[15px]">
@@ -23,7 +22,7 @@ const JobType = ({ index }) => {
       </div>
       <div>
         <div className="flex w-[514px] relative">
-          <p className="font-[Poppins] text-[16px] text-[500]">
+          <p className="font-[Poppins] text-[16px] font-[500]">
             UI/UX Designer/Frontend Engineer
           </p>
           <p className="font-[Poppins] text-[14px] absolute right-0">
