@@ -2,7 +2,7 @@ import TabIcon from "../tabIcon/TabIcon";
 
 const TabMenu = () => {
   return (
-    <div className="flex pb-[12px] pt-[23px] bg-[white] mt-[24px]">
+    <div className="flex bg-[white] mt-[24px]">
       <TabIcon imgName="dashboard.svg" name="Feed" />
       <TabIcon imgName="friends.svg" name="My Networks" />
       <TabIcon imgName="Group.svg" name="Dating" />

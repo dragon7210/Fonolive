@@ -76,10 +76,10 @@ const Middle = () => {
           including versions of Lorem Ipsum.
         </p>
         <div className="flex justify-center shadow rounded-[10px] pb-[65px]">
-          <div className="p-[15px] shadow-lg">
+          <div className="p-[15px] shadow-lg cursor-pointer">
             <Image src="/svg/upCore.svg" width={18} height={15} alt="Upcore" />
           </div>
-          <div className="p-[15px] shadow-lg">
+          <div className="p-[15px] shadow-lg cursor-pointer">
             <Image
               src="/svg/downCore.svg"
               width={18}
