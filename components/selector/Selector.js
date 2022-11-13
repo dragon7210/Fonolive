@@ -5,7 +5,7 @@ const Selector = ({ name }) => {
   const [onSel, setOnSel] = useState(false);
   return (
     <>
-      <div className="jobCheck">
+      <div className="flex mb-[21px]">
         {onSel ? (
           <div>
             <Image
@@ -21,14 +21,14 @@ const Selector = ({ name }) => {
           </div>
         ) : (
           <div
-            className="checkFalse"
+            className="border-[2px] w-[25px] h-[25px] rounded-[5px] border-[#1F41F7]"
             onClick={() => {
               onSel ? setOnSel(false) : setOnSel(true);
             }}
           ></div>
         )}
 
-        <p className="job">{name}</p>
+        <p className="ml-[15px] font-[Poppins] text-[149x]">{name}</p>
       </div>
     </>
   );

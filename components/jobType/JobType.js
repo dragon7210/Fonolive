@@ -8,8 +8,11 @@ const JobType = ({ index }) => {
   };
   const onClick = () => {};
   return (
-    <div className="jobType1" onClick={selJobDetail}>
-      <div className="people">
+    <div
+      className="flex bg-[white] p-[18px] mt-[16px] mb-[20px]"
+      onClick={selJobDetail}
+    >
+      <div className="bg-[#545AF2] p-[19px] mr-[15px]">
         <Image
           src="/svg/people.svg"
           className="Group"
@@ -18,17 +21,23 @@ const JobType = ({ index }) => {
           height={38}
         />
       </div>
-      <div className="right">
-        <div className="title">
-          <p className="job-title">UI/UX Designer/Frontend Engineer</p>
-          <p className="job-type">Full-time</p>
+      <div>
+        <div className="flex w-[514px] relative">
+          <p className="font-[Poppins] text-[16px] text-[500]">
+            UI/UX Designer/Frontend Engineer
+          </p>
+          <p className="font-[Poppins] text-[14px] absolute right-0">
+            Full-time
+          </p>
         </div>
-        <p className="content">
+        <p className="font-[Poppins] text-[14px]">
           Creative Thoughts Informatics in Indore, MP, INDIA
         </p>
-        <div className="apply">
-          <p className="date">2 days ago</p>
-          <p className="state">Apply this job</p>
+        <div className="flex relative">
+          <p className="font-[Poppins] text-[14px]">2 days ago</p>
+          <p className="font-[Poppins] text-[14px] absolute right-0">
+            Apply this job
+          </p>
         </div>
       </div>
     </div>
