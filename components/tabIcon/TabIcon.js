@@ -6,7 +6,7 @@ const TabIcon = ({ imgName, name }) => {
 
   return (
     <div
-      className="w-[108px] text-center pb-[12px] pt-[21px] cursor-pointer shadow-inner hover:border-t-4 border-[#545AF2]"
+      className="w-[108px] text-center pb-[12px] pt-[21px] cursor-pointer shadow-inner border-t-4 hover:border-t-4 hover:border-[#545AF2]"
       onMouseOver={() => setHover(true)}
       onMouseOut={() => setHover(false)}
     >

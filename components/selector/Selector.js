@@ -12,8 +12,8 @@ const Selector = ({ name }) => {
               className="checkTrue"
               src="/image/shape.png"
               alt="me"
-              width="27"
-              height="27"
+              width="25"
+              height="25"
               onClick={() => {
                 onSel ? setOnSel(false) : setOnSel(true);
               }}

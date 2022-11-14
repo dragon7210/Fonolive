@@ -12,7 +12,7 @@ const Middle = () => {
         <p className="mt-[42px] font-[Poppins] text-[20px] font-[500]">
           Businesses
         </p>
-        <button className="bg-[#545AF2] p-[13px] relative flex mt-[38px] rounded-[99px] w-[164px] ml-[390px]">
+        <button className="bg-[#545AF2] p-[13px] relative flex mt-[38px] rounded-[99px] w-[164px] ml-[370px]">
           <p className="text-[white] w-[121px] m-0 text-[12px] font-[Poppins] ">
             Create Businesses
           </p>

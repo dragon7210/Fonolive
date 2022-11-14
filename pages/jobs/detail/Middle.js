@@ -1,4 +1,5 @@
 import TabMenu from "../../../components/tabMenu/TabMenu";
+import Image from "next/image";
 
 const Middle = () => {
   return (
@@ -45,14 +46,39 @@ const Middle = () => {
         <p className="font-[Poppins] text-[14px] font-[500]">
           Upload your resume .pdf
         </p>
-        <div className="text-center">
+        <div className="flex">
+          <div className="w-[250px] h-[120px] text-center border-2 border-[#545AF2] rounded-[10px] mt-[28px]">
+            <Image
+              className="mx-auto mt-[22px]"
+              alt="pluse"
+              src="/svg/file.svg"
+              width="36"
+              height="40"
+            />
+            <p className="font-[Poppins] text-[14px] text-[#545AF2] font-[500] mt-[21px]">
+              Drag & Drop or Choose file
+            </p>
+          </div>
+        </div>
+        <div className="text-center mt-[60px]">
           <button className="bg-[#545AF2] px-[57px] py-[16px] rounded-[10px] mb-[20px]">
-            <p className="font-[Poppins] text-[white] text-[16px]">Apply Now</p>
+            <p className="font-[Poppins]  text-[white] text-[16px]">
+              Apply Now
+            </p>
           </button>
         </div>
       </div>
-      <div className="bg-[#545AF2] opacity-[0.5] text-center rounded-[10px]pt-[20px] py-[15px]">
+      <div className="bg-[#545AF2] opacity-[0.5] text-center rounded-[10px] pt-[20px] py-[15px] mt-[20px]">
         <button className="px-[25px] py-[13px] bg-[white] rounded-[10px]">
+          <div className="relative bg-[#545AF2] w-[26px] h-[26px] rounded-[99px] mx-auto">
+            <Image
+              className="absolute top-[7px] right-[7px]"
+              alt="pluse"
+              src="/svg/pluse.svg"
+              width="11"
+              height="11"
+            />
+          </div>
           Create Resume
         </button>
       </div>

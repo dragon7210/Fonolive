@@ -26,7 +26,7 @@ const Header = () => {
           height="20"
         />
       </div>
-      <div className="ml-[29px] mt-[71px]">
+      <div className="ml-[29px] mt-[71px] relative">
         <Image
           className="searchImg"
           src="/svg/Notification.svg"
@@ -34,6 +34,7 @@ const Header = () => {
           width="20"
           height="26"
         />
+        <div className="w-[10px] h-[10px] bg-[#545AF2] rounded-[99px] top-[-2px] right-[0px] absolute" />
       </div>
     </div>
   );
