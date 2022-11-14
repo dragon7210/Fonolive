@@ -33,7 +33,7 @@ const Left = () => {
           />
           <Image
             className="absolute top-[33px] right-[15px]"
-            src="/image/Vector.png"
+            src="/svg/position.svg"
             alt="me"
             width="14"
             height="20"

@@ -1,11 +1,20 @@
 import Image from "next/image";
 import Selector from "../../../components/selector/Selector";
 import RangeSlider from "react-range-slider-input";
-import Calendar from "react-calendar";
-import "react-calendar/dist/Calendar.css";
 import "react-range-slider-input/dist/style.css";
+import { DateRange } from "react-date-range";
+import "react-date-range/dist/styles.css"; // main css file
+import "react-date-range/dist/theme/default.css";
+import { useState } from "react";
 
 const Left = () => {
+  const [state, setState] = useState([
+    {
+      startDate: new Date(),
+      endDate: new Date(),
+      key: "selection",
+    },
+  ]);
   return (
     <>
       <div className="mt-[24px] ml-[41px]">
@@ -37,7 +46,7 @@ const Left = () => {
           />
           <Image
             className="absolute top-[33px] right-[15px]"
-            src="/image/Vector.png"
+            src="/svg/position.svg"
             alt="me"
             width="14"
             height="20"
@@ -54,9 +63,19 @@ const Left = () => {
           $500-$10,200
         </p>
         <RangeSlider />
-        <p className="mt-[40px] font-[Poppins] text-[16px] mb-[25px]">Date</p>
-        <div className="w-[270px] h-[260px]">
-          <Calendar />
+        <div className="relative">
+          <p className="mt-[40px] font-[Poppins] text-[16px] mb-[25px]">Date</p>
+          <div className="w-[270px] h-[260px]">
+            <DateRange
+              editableDateInputs={true}
+              onChange={(item) => setState([item.selection])}
+              moveRangeOnFirstSelection={false}
+              ranges={state}
+              showDateDisplay={false}
+              rangeColors={["#545AF2"]}
+              className="scale-90 absolute top-4 -left-5"
+            />
+          </div>
         </div>
       </div>
     </>
