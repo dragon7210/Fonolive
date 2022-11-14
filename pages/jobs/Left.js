@@ -6,7 +6,7 @@ const Left = () => {
     <>
       <div className="mt-[24px] ml-[41px]">
         <div className="bg-[white] flex w-[238px] rounded-[10px]">
-          <div className="p-[14px]">
+          <div className="p-[14px] relative">
             <Image
               className="oval"
               src="/image/oval.png"
@@ -14,6 +14,7 @@ const Left = () => {
               width="48"
               height="48"
             />
+            <div className="w-[16px] h-[16px] bg-[#70FF00] rounded-[99px] absolute top-[46px] right-[16px]" />
           </div>
           <div className="mt-[17px] ml-[12px] pr-[21px]">
             <p className="font-[Poppins] text-[blue] text-[15px]">
