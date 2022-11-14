@@ -3,7 +3,7 @@ import Image from "next/image";
 const Businesses = () => {
   return (
     <>
-      <div className="flex bg-[white] relative mt-[12px]">
+      <div className="flex bg-[white] cursor-pointer relative mt-[12px]">
         <div className="mt-[15px] ml-[27px] mb-[15px]">
           <Image
             className="business-img"

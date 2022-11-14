@@ -2,7 +2,7 @@ import Image from "next/image";
 import Selector from "../../../components/selector/Selector";
 import RangeSlider from "react-range-slider-input";
 import { DateRange } from "react-date-range";
-import "react-date-range/dist/styles.css"; // main css file
+import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { useState } from "react";
 import "react-range-slider-input/dist/style.css";
@@ -73,7 +73,7 @@ const Left = () => {
               ranges={state}
               showDateDisplay={false}
               rangeColors={["#545AF2"]}
-              className="scale-90 absolute top-4 -left-5"
+              className="scale-90 absolute top-4 -left-7"
             />
           </div>
         </div>
