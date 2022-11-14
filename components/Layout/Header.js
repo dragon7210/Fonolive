@@ -1,52 +1,17 @@
 import Image from "next/image";
+import { useState } from "react";
+import HeaderPeople from "../headerPeople";
+
+const data = [0, 1, 2, 3, 4, 5];
 
 const Header = () => {
   return (
     <div className="flex">
       <p className="pt-[27px] pl-[61px] text-[80px] font-[Teko]">Fonolive</p>
       <div className="flex ml-[91px] pt-[58px]">
-        <Image
-          className="mr-[25px] h-[52px] border-[#545AF2] border-[3px]  rounded-[99px]"
-          src="/image/oval.png"
-          alt="me"
-          width="52"
-          height="52"
-        />
-        <Image
-          className="mr-[25px] h-[52px] border-[#545AF2] border-[3px]  rounded-[99px]"
-          src="/image/oval.png"
-          alt="me"
-          width="52"
-          height="52"
-        />{" "}
-        <Image
-          className="mr-[25px] h-[52px] border-[#545AF2] border-[3px]  rounded-[99px]"
-          src="/image/oval.png"
-          alt="me"
-          width="52"
-          height="52"
-        />{" "}
-        <Image
-          className="mr-[25px] h-[52px] border-[#545AF2] border-[3px]  rounded-[99px]"
-          src="/image/oval.png"
-          alt="me"
-          width="52"
-          height="52"
-        />{" "}
-        <Image
-          className="mr-[25px] h-[52px] border-[#545AF2] border-[3px]  rounded-[99px]"
-          src="/image/oval.png"
-          alt="me"
-          width="52"
-          height="52"
-        />{" "}
-        <Image
-          className="mr-[25px] h-[52px] border-[#545AF2] border-[3px]  rounded-[99px]"
-          src="/image/oval.png"
-          alt="me"
-          width="52"
-          height="52"
-        />
+        {data.map((ele, index) => {
+          return <HeaderPeople key={index} />;
+        })}
       </div>
       <div className="ml-[65px] mt-[58px] flex relative">
         <input
