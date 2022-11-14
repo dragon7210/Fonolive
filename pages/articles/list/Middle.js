@@ -25,7 +25,7 @@ const Middle = () => {
       </div>
       <div className="flex relative">
         <input
-          className="w-[650px] mt-[29px] py-[14px] pl-[20px] font-[Poppins] text-[16px]"
+          className="w-[648px] mt-[29px] py-[14px] pl-[20px] font-[Poppins] text-[16px]"
           placeholder="Search..."
         />
         <Image
@@ -36,7 +36,7 @@ const Middle = () => {
           height="20"
         />
       </div>
-      <div className="mt-[21px] bg-[white] w-[650px]">
+      <div className="mt-[21px] bg-[white] w-[648px]">
         <p className="pt-[21px] pl-[25px] font-[Poppins] font-[500] text-[16px]">
           Categories
         </p>
