@@ -2,9 +2,10 @@ import Image from "next/image";
 import Selector from "../../../components/selector/Selector";
 import RangeSlider from "react-range-slider-input";
 import { DateRange } from "react-date-range";
+import { useState } from "react";
+
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
-import { useState } from "react";
 import "react-range-slider-input/dist/style.css";
 
 const Left = () => {
@@ -63,7 +64,9 @@ const Left = () => {
         <p className="mt-[25px] range-value font-[Poppins] text-[16px] font-[600] mb-[22px]">
           $500-$10,200
         </p>
-        <RangeSlider />
+        <div className="custom-slider">
+          <RangeSlider />
+        </div>
         <div className="relative">
           <p className="mt-[40px] font-[Poppins] text-[16px] mb-[25px]">Date</p>
           <div className="w-[270px] h-[260px]">

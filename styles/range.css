@@ -1,0 +1,18 @@
+.custom-slider .range-slider {
+  height: 2px;
+  background-color:  #999999;
+}
+.custom-slider .range-slider__range {
+  background-color: #545AF2 !important;
+}
+.custom-slider .range-slider__thumb[data-lower] {
+  height: 21px;
+  width: 21px;
+  background: white;
+  border: #545AF2 solid 3px; 
+}
+.custom-slider .range-slider__thumb[data-upper] {
+  height: 21px;
+  width: 21px;
+  background-color: #545AF2; 
+}
