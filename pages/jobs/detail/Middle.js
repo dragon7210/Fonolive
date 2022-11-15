@@ -1,10 +1,8 @@
-import TabMenu from "../../../components/tabMenu/TabMenu";
 import Image from "next/image";
 
 const Middle = () => {
   return (
     <div className="ml-[20px] w-[648px]">
-      <TabMenu />
       <div className="bg-[white] p-[20px] mt-[39px]">
         <div className="flex relative">
           <p className="font-[Poppins] text-[16px] font-[500]">

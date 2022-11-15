@@ -1,18 +1,16 @@
 import Image from "next/image";
 
-import TabMenu from "../../../components/tabMenu/TabMenu";
 import BusinessList from "../../../components/businessList";
 
 const data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const Middle = () => {
   return (
     <div className="ml-[20px]">
-      <TabMenu />
       <div className="flex relative">
-        <p className="mt-[42px] font-[Poppins] text-[20px] font-[500]">
+        <p className="mt-[39px] font-[Poppins] text-[20px] font-[500]">
           Businesses
         </p>
-        <button className="bg-[#545AF2] p-[13px] relative flex mt-[38px] rounded-[99px] w-[164px] ml-[370px]">
+        <button className="bg-[#545AF2] p-[13px] relative flex mt-[30px] rounded-[99px] w-[164px] ml-[370px]">
           <p className="text-[white] w-[121px] m-0 text-[12px] font-[Poppins] ">
             Create Businesses
           </p>

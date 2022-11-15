@@ -1,16 +1,14 @@
-import TabMenu from "../../../components/tabMenu/TabMenu";
 import Image from "next/image";
 import Tab from "../../../components/tab";
 
 const Middle = () => {
   return (
     <div className="ml-[20px]">
-      <TabMenu />
       <div className="flex relative">
-        <p className="mt-[42px] font-[Poppins] text-[20px] font-[500]">
+        <p className="mt-[39px] font-[Poppins] text-[20px] font-[500]">
           Articles
         </p>
-        <button className="bg-[#545AF2] p-[13px] relative flex mt-[38px] rounded-[99px] w-[164px] ml-[409px]">
+        <button className="bg-[#545AF2] p-[13px] relative flex mt-[28px] rounded-[99px] w-[164px] ml-[409px]">
           <p className="text-[white] w-[121px] m-0 text-[12px] font-[Poppins] ">
             Edit Article
           </p>
@@ -25,11 +23,11 @@ const Middle = () => {
       </div>
       <div className="flex relative">
         <input
-          className="w-[648px] mt-[29px] py-[14px] pl-[20px] font-[Poppins] text-[16px]"
+          className="w-[648px] mt-[14px] py-[14px] pl-[20px] font-[Poppins] text-[16px]"
           placeholder="Search..."
         />
         <Image
-          className="absolute right-[20px] top-[45px]"
+          className="absolute right-[20px] top-[30px]"
           src="/svg/search.svg"
           alt="search"
           width="20"

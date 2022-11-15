@@ -1,6 +1,4 @@
 import Image from "next/image";
-import TabMenu from "../../../components/tabMenu/TabMenu";
-
 import JobType from "../../../components/jobType";
 const data1 = [0, 1, 2, 3, 4];
 const data2 = [0, 1];
@@ -8,7 +6,6 @@ const data2 = [0, 1];
 const Middle = () => {
   return (
     <div className="ml-[20px]">
-      <TabMenu />
       <div className="flex relative">
         <input
           className="w-[650px] mt-[29px] py-[14px] pl-[20px] font-[Poppins] text-[16px]"

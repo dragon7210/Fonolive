@@ -1,1 +1,1 @@
-export { default } from "./TabMenu.js";
+export { default } from "./TabMenu";
