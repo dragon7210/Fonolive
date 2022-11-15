@@ -26,6 +26,13 @@ const Middle = () => {
           return <ProductList key={index} />;
         })}
       </div>
+      <div className="mt-[40px] flex justify-center">
+        <button className="bg-[#545AF2] px-[30px] py-[12px] rounded-[50px]">
+          <p className="font-[Poppins] font-[600] text-[16px] text-[white]">
+            Load more
+          </p>
+        </button>
+      </div>
     </div>
   );
 };
