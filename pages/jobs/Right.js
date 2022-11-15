@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SelPeople from "../../components/selPeople";
 
 const data = [0, 1, 2, 3, 4];

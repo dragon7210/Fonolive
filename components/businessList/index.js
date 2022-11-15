@@ -1,1 +1,1 @@
-export { default } from "./BusinessList.js";
+export { default } from "./BusinessList";

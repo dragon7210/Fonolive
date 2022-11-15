@@ -1,1 +1,1 @@
-export { default } from "./SelPeople.js";
+export { default } from "./SelPeople";

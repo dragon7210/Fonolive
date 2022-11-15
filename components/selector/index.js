@@ -1,1 +1,1 @@
-export { default } from "./Selector.js";
+export { default } from "./Selector";

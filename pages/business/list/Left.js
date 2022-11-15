@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Selector from "../../../components/selector/Selector";
+import Selector from "../../../components/selector";
 import RangeSlider from "react-range-slider-input";
 import { DateRange } from "react-date-range";
 import { useState } from "react";

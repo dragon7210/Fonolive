@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Selector from "../../components/selector/Selector";
+import Selector from "../../components/selector";
 
 const Left = () => {
   return (
